@@ -28,7 +28,7 @@ az k8sconfiguration create \
     --name cluster-config \
     --cluster-name ${CLUSTER_NAME} --resource-group ${RESOURCE_GROUP} \
     --operator-instance-name cluster-config --operator-namespace cluster-config \
-    --repository-url https://github.com/Azure/arc-k8s-demo \
+    --repository-url https://github.com/leandroscardua/arc-k8s-demo \
     --scope cluster --cluster-type connectedClusters
 ```
 
